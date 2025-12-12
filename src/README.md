@@ -44,5 +44,6 @@ The prototype compares several machine learning models and evaluates them using 
 
 The dataset is **not included** in this repository due to its size.  
 Download it from Kaggle and place it inside a folder named:
+data/
 
 
