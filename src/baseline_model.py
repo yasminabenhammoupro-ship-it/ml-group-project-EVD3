@@ -37,7 +37,7 @@ y_pred = log_reg.predict(X_test_scaled)
 print("\n--- Baseline Model Evaluation ---")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 
-# Classification Report (Key element for your analysis)
+# Classification Report (Key element for analysis)
 print("\nClassification Report:\n", classification_report(
     y_test, y_pred, target_names=['NORMAL (0)', 'ANOMALY (1)']
 ))
